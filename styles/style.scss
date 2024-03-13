@@ -3,11 +3,8 @@
 @import './variables';
 @import './fonts';
 @import './components/text-field';
-
 @import './components/header';
 @import './components/btn';
-
-
 
 p {
   font-family: Roboto-regular, serif;
@@ -81,6 +78,7 @@ form {
 }
 
 .why-choose {
+  margin-top: 60px;
   padding-left: 83px;
   padding-right: 83px;
   margin-bottom: 130px;
@@ -115,6 +113,11 @@ form {
       padding-bottom: 40px;
     }
   }
+}
+
+.biography {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .footer {
@@ -296,6 +299,7 @@ form {
       width: calc(100% - 20px) !important;
     }
     img {
+      margin-top: 50px !important;
       width: 80% !important;
       height: auto !important;
     }
@@ -313,6 +317,7 @@ form {
 
 @media (max-width: 920px) {
   .why-choose {
+    margin-top: 0px;
     margin-bottom: 0;
     .boxes {
       flex-direction: column;
@@ -386,6 +391,7 @@ form {
 
 @media (max-width: 750px) {
   .contact-us {
+    background-image: url("bg/contact-us-sm-bg.jpg");
     p {
       max-width: 500px !important;
     }
