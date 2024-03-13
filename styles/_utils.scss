@@ -1,0 +1,221 @@
+.u-flex {
+  display: flex;
+}
+
+.u-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.u-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.u-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.u-space-between {
+  justify-content: space-between;
+}
+
+.u-w-100 {
+  width: 100% !important;
+}
+
+.u-w-200 {
+  width: 200px !important;
+}
+
+.u-mw-430 {
+  max-width: 430px !important;
+}
+
+.u-w-60 {
+  width: 60% !important;
+}
+
+.u-w-55 {
+  width: 55% !important;
+}
+
+.u-w-50 {
+  width: 50% !important;
+}
+
+.u-w-45 {
+  width: 45% !important;
+}
+
+.u-w-40 {
+  width: 40% !important;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+.u-px-10 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.u-py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.u-px-83 {
+  padding-left: 83px;
+  padding-right: 83px;
+}
+
+
+.u-pr-100 {
+  padding-right: 100px;
+}
+
+.u-pr-150 {
+  padding-right: 150px;
+}
+
+.u-pr-200 {
+  padding-right: 200px;
+}
+
+.u-pl-150 {
+  padding-left: 150px;
+}
+
+.u-pl-200 {
+  padding-left: 200px;
+}
+
+.u-pl-250 {
+  padding-left: 250px;
+}
+
+.u-pt-80 {
+  padding-top: 80px;
+}
+
+.u-mb-15 {
+  margin-bottom: 15px;
+}
+
+.u-mb-10 {
+  margin-bottom: 10px;
+}
+
+.u-mb-20 {
+  margin-bottom: 20px;
+}
+
+.u-mb-26 {
+  margin-bottom: 26px;
+}
+
+.u-mb-44 {
+  margin-bottom: 44px;
+}
+
+.u-mb-46 {
+  margin-bottom: 46px;
+}
+
+.u-mt-200 {
+  margin-top: 200px;
+}
+
+.u-mt-80 {
+  margin-top: 80px;
+}
+
+.u-mb-27 {
+  margin-bottom: 27px;
+}
+
+.u-margin-40 {
+  margin-bottom: 40px;
+}
+.u-mb-50 {
+  margin-bottom: 50px;
+}
+
+.u-mb-72 {
+  margin-bottom: 72px;
+}
+
+.u-mb-113 {
+  margin-bottom: 113px;
+}
+
+.u-mb-130 {
+  margin-bottom: 130px;
+}
+
+.u-mr-200 {
+  margin-right: 200px;
+}
+
+.u-mb-33 {
+  margin-bottom: 33px;
+}
+
+.u-mr-150{
+  margin-right: 200px;
+}
+
+.u-mr-60{
+  margin-right: 60px;
+}
+
+.u-divider {
+  height: 5px;
+  border-radius: 10px;
+  width: 150px;
+  background:  #EE4A74;
+}
+
+.gray-text {
+  color: #555656;
+  line-height: 35px;
+}
+
+.text-purple {
+  color: #450D5A;
+
+}
+
+.text-dark {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.u-sm-only {
+  @media (min-width: 751px) {
+    display: none;
+  }
+}
+
+.u-lg-only {
+  @media (max-width: 750px) {
+    display: none;
+  }
+}
+
+.white-divider {
+  width: calc(100% - 40px);
+  background: white;
+  height: 2px;
+}
