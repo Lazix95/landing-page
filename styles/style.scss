@@ -156,7 +156,7 @@ form {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .footer-big {
+  .footer-big, .footer--link {
     font-family: Roboto-regular, serif;
     font-size: 18px;
     font-weight: 300;
@@ -358,6 +358,10 @@ form {
       margin-left: auto !important;
       margin-right: auto !important;
       text-align: center !important;
+    }
+
+    form {
+      padding: 10px;
     }
   }
 
