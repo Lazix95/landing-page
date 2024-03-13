@@ -397,6 +397,9 @@ form {
     .second {
       width: 100% !important;
       padding: 0 !important;
+      p {
+        padding-inline: 10px;
+      }
       form {
         margin-inline: 20px;
       }
