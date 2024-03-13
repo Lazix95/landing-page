@@ -56,6 +56,7 @@ ul {
   line-height: 33px;
   letter-spacing: 0em;
   color:  #EE4A74;
+  margin-right: 10px;
 }
 
 .roboto_bold {
@@ -407,6 +408,9 @@ form {
     .first {
       padding: 0 !important;
       width: 100% !important;
+      p {
+        padding-inline: 10px;
+      }
       .sm_u-flex-col {
         flex-direction: column;
         align-items: center;
